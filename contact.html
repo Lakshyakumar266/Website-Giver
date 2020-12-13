@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | My Templates</title>
+    <link rel="shortcut icon" href="static/images/logo2.png" type="image/x-icon" />
+    <link rel="stylesheet" href="sass/contact.css">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/utils.css">
+    <link rel="stylesheet" href="static/responcive.css">
+</head>
+
+<body>
+    <!-- nav -->
+    <nav>
+        <div class="navigation flex flex-center">
+            <div class="logo"> <img src="static/images/logoprev.png" alt="Logo"> </div>
+            <ul class="flex">
+                <li><a href="index.html" class="links">Home</a></li>
+                <li class=" hidden"><a href="#" class="links">About</a></li>
+                <li class=" hidden"><a href="#" class="links">Websites</a></li>
+                <li><a href="contact.html" class="links">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- content -->
+    <div class="p-1 container">
+        <Form class="form">
+            <h1>Feel Free To Contact:</h1>
+            <div class="form-group flex flex-collem">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group flex flex-collem">
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Enter Your Email">
+            </div>
+            <div class="form-group flex flex-collem">
+                <label for="phone">Number:</label>
+                <input type="text" id="phone" placeholder="Enter Your Phone number">
+            </div>
+            <div class="form-group flex flex-collem">
+                <label for="issus">Writw Why You Want To Contact Me For:</label>
+                <textarea name="textarea" id="issus" placeholder="Describe Your issus"></textarea>
+            </div>
+
+        </Form>
+    </div>
+
+    <!-- footer -->
+    <footer class="flex flex-center">
+        <!-- Images Copyright -->
+        Copyright &copy; all Rights reserved &#8205; &#8205; | &#8205; &#8205;
+        <div>
+            Vector Images From -<a href="https://www.freepik.com/vectors" target="_blank"> freepik.com</a>
+        </div>
+        <br>
+        <div> &#8205; &#8205; And &#8205; &#8205;<a href="https://www.freepnglogos.com"
+                target="_blank">freepnglogos.co</a>
+        </div>
+    </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script>
+    $(window).on('scroll', () => {
+        if ($(window).scrollTop()) {
+            $('nav').addClass('black');
+            $('.links').addClass('black')
+        }
+        else {
+            $('nav').removeClass('black');
+            $('.links').removeClass('black')
+        }
+    })
+</script>
+
+</html>

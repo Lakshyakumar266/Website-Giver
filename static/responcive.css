@@ -1,0 +1,28 @@
+@media screen and (max-width: 650px) {
+  footer {
+    flex-direction: column;
+  }
+  footer br {
+    display: none;
+  }
+  .hidden {
+    visibility: hidden;
+    display: none !important;
+  }
+  .navigation {
+    width: auto;
+  }
+  .logo {
+    left: 5px;
+  }
+  .front {
+    display: none;
+  }
+  .welcome-fold {
+    padding: 10px;
+  }
+  nav ul {
+    position: absolute;
+    right: 0;
+  }
+}
