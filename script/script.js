@@ -23,3 +23,4 @@ closer('btn6', 'btn-close6');
 closer('btn7', 'btn-close7');
 closer('btn8', 'btn-close8');
 closer('btn9', 'btn-close9');
+closer('btn10', 'btn-close10');
