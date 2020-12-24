@@ -20,7 +20,6 @@
   opacity: 0.5;
 }
 
-
 .form {
   padding: 25px;
   h1 {
@@ -28,13 +27,12 @@
   }
   .form-group {
     margin: 10px auto;
-    input, 
+    input,
     textarea {
       padding: 5px;
       border-radius: 5px;
       border: 1px solid black;
       font-size: 15px;
-      font-family: cursive;
     }
     label {
       font-family: cursive;
@@ -43,6 +41,18 @@
     textarea {
       resize: vertical;
       height: 25vh;
+    }
+    input[type="submit"] {
+      font-family: cursive;
+      background: #ff7905;
+      color: white;
+      cursor: pointer;
+      transition: all 400ms ease;
+      padding: 5px 10px;
+    }
+    input[type="submit"]:hover {
+      background: white;
+      color: #ff7905;
     }
   }
 }

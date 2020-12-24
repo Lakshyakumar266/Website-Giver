@@ -11,7 +11,7 @@
 }
 
 .container::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -27,7 +27,7 @@
 }
 
 .form h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
 
 .form .form-group {
@@ -40,7 +40,6 @@
   border-radius: 5px;
   border: 1px solid black;
   font-size: 15px;
-  font-family: cursive;
 }
 
 .form .form-group label {
@@ -51,5 +50,20 @@
 .form .form-group textarea {
   resize: vertical;
   height: 25vh;
+}
+
+.form .form-group input[type="submit"] {
+  font-family: cursive;
+  background: #ff7905;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+  padding: 5px 10px;
+}
+
+.form .form-group input[type="submit"]:hover {
+  background: white;
+  color: #ff7905;
 }
 /*# sourceMappingURL=contact.css.map */
