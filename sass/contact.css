@@ -60,10 +60,12 @@
   -webkit-transition: all 400ms ease;
   transition: all 400ms ease;
   padding: 5px 10px;
+  width: 50% !important;
 }
 
 .form .form-group input[type="submit"]:hover {
   background: white;
   color: #ff7905;
+  width: 50% !important;
 }
 /*# sourceMappingURL=contact.css.map */

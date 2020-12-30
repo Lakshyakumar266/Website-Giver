@@ -49,10 +49,12 @@
       cursor: pointer;
       transition: all 400ms ease;
       padding: 5px 10px;
+      width: 50%!important;
     }
     input[type="submit"]:hover {
       background: white;
       color: #ff7905;
+      width: 50%!important;
     }
   }
 }

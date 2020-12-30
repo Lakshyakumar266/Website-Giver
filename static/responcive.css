@@ -29,4 +29,20 @@
     font-weight: 500;
     font-size: 10.97px;
   }
+  .form .form-group input[type="submit"] {
+    font-family: cursive;
+    background: #ff7905;
+    color: white;
+    cursor: pointer;
+    -webkit-transition: all 400ms ease;
+    transition: all 400ms ease;
+    padding: 5px 10px;
+    width: 100% !important;
+  }
+  
+  .form .form-group input[type="submit"]:hover {
+    background: white;
+    color: #ff7905;
+    width: 100% !important;
+  }
 }
