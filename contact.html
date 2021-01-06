@@ -19,7 +19,7 @@
             <div class="logo"> <img src="static/images/logoprev.png" alt="Logo"> </div>
             <ul class="flex">
                 <li><a href="index.html" class="links">Home</a></li>
-                <li class=" hidden"><a href="#" class="links">About</a></li>
+                <li class=" hidden"><a href="about.html" class="links">About</a></li>
                 <li class=" hidden"><a href="#" class="links">Websites</a></li>
                 <li><a href="contact.html" class="links">Contact</a></li>
             </ul>
@@ -50,7 +50,9 @@
                 <div id="recaptcha"></div>
             </div>
             <div class="form-group flex flex-collem">
-                <input type="submit" value="Submit Now">
+                <b>
+                    <input type="submit" value="Submit Now">
+                </b>
             </div>
         </Form>
     </div>
@@ -61,7 +63,7 @@
     <!-- Footer -->
     <footer class="flex flex-center">
         <!-- Image Copyright -->
-        Copyright &copy; all Rights reserved &#8205; &#8205; | &#8205; &#8205;
+        Copyright &copy; all Rights reserved &#8205; <span id="year-holder"></span> &#8205; &#8205; | &#8205; &#8205;
         <div>
             Vector Images From -<a href="https://www.freepik.com/vectors" target="_blank"> freepik.com</a>
         </div>
@@ -94,4 +96,5 @@
 </script>
 <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
 </script>
+<script src="script/datetime.js"></script>
 </html>

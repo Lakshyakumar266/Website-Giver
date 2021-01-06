@@ -36,4 +36,3 @@ closer('btn11', 'btn-close11');
 // closer('btn20', 'btn-close20');
 // closer('btn21', 'btn-close21');
 // closer('btn22', 'btn-close22');
-
