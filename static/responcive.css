@@ -45,4 +45,10 @@
     color: #ff7905;
     width: 100% !important;
   }
+  .space{
+    display: none;
+  }
+  .footer{
+    font-size: 0.8rem;
+  }
 }
