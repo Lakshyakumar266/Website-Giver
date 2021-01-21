@@ -1,31 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Pacifico&family=Tenali+Ramakrishna&display=swap');
-.flex{
-    display: flex;
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Pacifico&family=Tenali+Ramakrishna&display=swap");
+.flex {
+  display: flex;
 }
 
-.flex-center{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.flex-center {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.text-center{
-    text-align: center;
+.text-center {
+  text-align: center;
 }
-.m-auto{
-    margin: auto;
+.m-auto {
+  margin: auto;
 }
 
-.flex-collem{
-    flex-direction: column;
+.flex-collem {
+  flex-direction: column;
 }
-.align-center{
-    align-items: center;
+.align-center {
+  align-items: center;
 }
-.justify-center{
-    justify-content: center;
+.justify-center {
+  justify-content: center;
 }
-.p-1{
-    padding-top: 90px;
+.p-1 {
+  padding-top: 90px;
+}
+.container,
+.Content {
+  min-height: 80vh;
 }
