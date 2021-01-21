@@ -39,16 +39,16 @@
     padding: 5px 10px;
     width: 100% !important;
   }
-  
+
   .form .form-group input[type="submit"]:hover {
     background: white;
     color: #ff7905;
     width: 100% !important;
   }
-  .space{
+  .space {
     display: none;
   }
-  .footer{
+  .footer {
     font-size: 0.8rem;
   }
 }

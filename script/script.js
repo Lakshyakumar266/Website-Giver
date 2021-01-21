@@ -17,5 +17,5 @@ function closer(btnId, PlaceId) {
 let buttons_div = document.getElementsByClassName('data-hande');
 for (let x = 0; x < buttons_div.length; x++) {
     const element = buttons_div[x];
-    closer(`btn${x+1}`, `btn-close${x+1}`);
+    closer(`btn${x + 1}`, `btn-close${x + 1}`);
 }
