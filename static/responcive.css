@@ -35,7 +35,7 @@
     position: absolute;
     width: 100%;
     right: auto;
-    top: 100px;
+    top: 90px;
     flex-direction: column;
   }
   nav ul li:nth-child(1) {
