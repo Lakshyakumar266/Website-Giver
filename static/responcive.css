@@ -11,7 +11,7 @@
   } */
   .navigation {
     width: auto;
-    height: 20vh;
+    height: 100px;
   }
   .logo {
     left: 5px;
@@ -111,6 +111,6 @@
   }
 
   .burger {
-    height: 50vh !important;
+    /* height: auto!important; */
   }
 }
