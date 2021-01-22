@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  transition: all 400ms ease-in-out;
 }
 
 /* navigation */
@@ -138,4 +137,7 @@ footer {
 footer a {
   /* margin: 10px; */
   color: rgb(0, 140, 255);
+}
+.hamburger {
+  display: none;
 }

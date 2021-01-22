@@ -10,18 +10,29 @@
     <link rel="stylesheet" href="static/style.css">
     <link rel="stylesheet" href="static/utils.css">
     <link rel="stylesheet" href="static/responcive.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <!-- Navigation -->
     <nav>
-        <div class="navigation flex flex-center">
-            <div class="logo"> <img src="static/images/logoprev.png" alt="Logo"> </div>
-            <ul class="flex">
-                <li><a href="index.html" class="links">Home</a></li>
-                <li class=" hidden"><a href="games.html" class="links">Games</a></li>
-                <li class=" hidden"><a href="#" class="links">Websites</a></li>
-                <li><a href="contact.html" class="links">Contact</a></li>
+        <div class="navigation flex flex-center" id="navigation">
+            <div class="logo">
+                <a href="#">
+                    <img src="static/images/logoprev.png" alt="Logo">
+                </a>
+            </div>
+            <div class="hamburger">
+                <a onclick="hamburgerOpean();">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <ul class="flex" id="navul">
+                <li class="scroll"><a href="index.html" class="links">Home</a></li>
+                <li class="scroll"><a href="games.html" class="links">Games</a></li>
+                <li class="scroll"><a href="index.html" class="links">Websites</a></li>
+                <li class="scroll"><a href="contact.html" class="links">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -100,5 +111,6 @@
 <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
 </script>
 <script src="script/datetime.js"></script>
+<script src="script/hamburger.js"></script>
 
 </html>

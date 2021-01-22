@@ -33,3 +33,33 @@
 .Content {
   min-height: 80vh;
 }
+
+.icon-hambar {
+  background: black;
+  position: absolute;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.icon-hambar i {
+  color: #ddd;
+  font-size: 2rem;
+}
+.icon-hambar:hover {
+  background: rgb(77, 76, 76);
+  color: #fff;
+}
+.icon-hambar i:hover {
+  background: rgb(77, 76, 76);
+  color: #79a3de;
+}
+/* .active {
+  background-color: #4CAF50;
+  color: white;
+} */

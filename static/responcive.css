@@ -5,15 +5,17 @@
   footer br {
     display: none;
   }
-  .hidden {
+  /* .hidden {
     visibility: hidden;
     display: none !important;
-  }
+  } */
   .navigation {
     width: auto;
+    height: 20vh;
   }
   .logo {
     left: 5px;
+    top: 10px;
   }
   .front {
     display: none;
@@ -21,10 +23,41 @@
   .welcome-fold {
     padding: 10px;
   }
+  nav ul li a {
+    font-family: Verdana, sans-serif !important;
+    color: #000;
+  }
+  nav ul li a:hover {
+    color: #ddd;
+  }
+
   nav ul {
     position: absolute;
-    right: 0;
+    width: 100%;
+    right: auto;
+    top: 110px;
+    flex-direction: column;
   }
+  nav ul li:nth-child(1) {
+    border-top: 1px solid #000;
+  }
+  nav ul li {
+    border-bottom: 1px solid #000;
+    list-style: none;
+    padding: 14px 0;
+    margin: auto;
+    background: aliceblue;
+    width: 100%;
+    cursor: pointer;
+  }
+  nav ul li:hover {
+    background: #353433;
+  }
+  nav ul li:hover a {
+    background: #353433;
+    color: #ddd;
+  }
+
   .form-group label {
     font-weight: 500;
     font-size: 10.97px;
@@ -45,10 +78,39 @@
     color: #ff7905;
     width: 100% !important;
   }
+
   .space {
     display: none;
   }
   .footer {
     font-size: 0.8rem;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    background: #353433;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .hamburger i {
+    color: #ddd;
+    font-size: 2rem;
+  }
+  #navul {
+    display: none;
+    visibility: hidden;
+  }
+
+  .nav-list {
+    visibility: visible !important;
+    display: block !important;
+  }
+
+  .burger {
+    height: 50vh !important;
   }
 }
