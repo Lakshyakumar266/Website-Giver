@@ -82,7 +82,7 @@
   .space {
     display: none;
   }
-  .footer {
+  footer {
     font-size: 0.8rem;
   }
 
@@ -108,9 +108,5 @@
   .nav-list {
     visibility: visible !important;
     display: block !important;
-  }
-
-  .burger {
-    /* height: auto!important; */
   }
 }
