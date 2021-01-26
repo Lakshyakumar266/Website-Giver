@@ -25,3 +25,11 @@
   background-color: #bd4cb9;
   color: white;
 }
+
+.Content {
+  background-color: aliceblue;
+  padding-top: 50px;
+}
+body{
+  background-color: aliceblue;
+}

@@ -16,26 +16,7 @@
 
 <body>
     <!-- Navigation -->
-    <nav>
-        <div class="navigation flex flex-center" id="navigation">
-            <div class="logo">
-                <a href="#">
-                    <img src="static/images/logoprev.png" alt="Logo">
-                </a>
-            </div>
-            <div class="hamburger">
-                <a onclick="hamburgerOpean();">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
-            <ul class="flex" id="navul">
-                <li class="scroll"><a href="index.html" class="links">Home</a></li>
-                <li class="scroll"><a href="games.html" class="links">Games</a></li>
-                <li class="scroll"><a href="index.html" class="links">Websites</a></li>
-                <li class="scroll"><a href="contact.html" class="links">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+    <nav></nav>
 
     <!-- Submition Form -->
     <div class="p-1 container">
@@ -86,6 +67,10 @@
             <a href="https://secure.logomaker.com/" target="_blank">logomaker.com</a>
         </div>
     </footer>
+    
+    <!-- Google Add -->
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
+</script>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -110,8 +95,8 @@
         });
     };
 </script>
-<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
-</script>
+
+<script src="script/header.js"></script>
 <script src="script/datetime.js"></script>
 <script src="script/hamburger.js"></script>
 

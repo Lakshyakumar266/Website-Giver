@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+body{
+  background: seashell;
+}
 
 /* navigation */
 .black {
@@ -127,6 +130,7 @@ nav ul li {
   display: none;
   border-radius: 5px;
 }
+
 /* Footer */
 footer {
   background: rgb(31, 31, 31);
