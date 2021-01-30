@@ -74,20 +74,7 @@
 </body>
 
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script>
-    $(window).on('scroll', () => {
-        if ($(window).scrollTop()) {
-            $('nav').addClass('black');
-            $('.scroll').addClass('black');
-            $('.links').addClass('black')
-        }
-        else {
-            $('nav').removeClass('black');
-            $('.scroll').removeClass('black');
-            $('.links').removeClass('black')
-        }
-    })
-</script>
+
 <script>
     var onloadCallback = function () {
         grecaptcha.render('recaptcha', {

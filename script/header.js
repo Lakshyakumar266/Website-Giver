@@ -35,3 +35,16 @@ document.querySelector('footer').innerHTML = `
         <a href="https://secure.logomaker.com/" target="_blank">logomaker.com</a>
     </div>
 `;
+
+$(window).on('scroll', () => {
+    if ($(window).scrollTop()) {
+        $('nav').addClass('black');
+        $('.scroll').addClass('black');
+        $('.links').addClass('black')
+    }
+    else {
+        $('.scroll').removeClass('black');
+        $('nav').removeClass('black');
+        $('.links').removeClass('black')
+    }
+})
