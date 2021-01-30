@@ -129,6 +129,7 @@ nav ul li {
   border: 1px solid #000;
   display: none;
   border-radius: 5px;
+  margin-left: 15px;
 }
 
 /* Footer */
