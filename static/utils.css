@@ -67,3 +67,7 @@
 .anim{
   transform: rotateZ(90deg);
 }
+
+.arrow{
+  transition: all 200ms ease-in;
+}

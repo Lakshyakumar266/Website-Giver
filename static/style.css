@@ -96,6 +96,7 @@ nav ul li {
   background: transparent;
   border: none;
   cursor: pointer;
+  outline: none;
 }
 .temp button:hover {
   text-decoration: underline;
