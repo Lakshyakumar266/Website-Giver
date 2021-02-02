@@ -5,17 +5,12 @@
   footer br {
     display: none;
   }
-  /* .hidden {
-    visibility: hidden;
-    display: none !important;
-  } */
   .navigation {
     width: auto;
     height: 90px;
   }
   .logo {
     left: 5px;
-    top: 10px;
   }
   .front {
     display: none;
@@ -58,10 +53,20 @@
     color: #ddd;
   }
 
+  .logo img {
+    width: 80px;
+    height: 60px;
+  }
+
   .form-group label {
     font-weight: 500;
     font-size: 10.97px;
   }
+
+  .form-heading {
+    line-height: 40px;
+  }
+
   .form .form-group input[type="submit"] {
     font-family: cursive;
     background: #ff7905;
@@ -89,7 +94,6 @@
   .hamburger {
     display: block;
     position: absolute;
-    top: 30px;
     right: 10px;
     background: #353433;
     padding: 10px;
