@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
 }
-body{
+body {
   background: seashell;
 }
 
@@ -148,9 +148,8 @@ footer a {
   display: none;
 }
 
-
 /* Selected Are */
-::selection{
+::selection {
   background: #ff7905;
   color: #f1f1f1;
 }

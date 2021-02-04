@@ -74,7 +74,7 @@
 
 footer::selection,
 footer div::selection,
-footer span::selection{
+footer span::selection {
   background: #f1f1f1;
   color: #000;
 }
