@@ -1,7 +1,7 @@
 document.querySelector('nav').innerHTML = `
     <div class="navigation flex flex-center" id="navigation">
         <div class="logo">
-            <a href="/">
+            <a href="index.html">
                 <img src="static/images/logoprev.png" alt="Logo">
             </a>
         </div>
