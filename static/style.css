@@ -147,3 +147,10 @@ footer a {
 .hamburger {
   display: none;
 }
+
+
+/* Selected Are */
+::selection{
+  background: #ff7905;
+  color: #f1f1f1;
+}

@@ -64,10 +64,21 @@
   color: white;
 } */
 
-.anim{
+.anim {
   transform: rotateZ(90deg);
 }
 
-.arrow{
+.arrow {
   transition: all 200ms ease-in;
+}
+
+footer::selection,
+footer div::selection,
+footer span::selection{
+  background: #f1f1f1;
+  color: #000;
+}
+footer a::selection {
+  background: #f1f1f1;
+  color: rgb(0, 81, 255);
 }
