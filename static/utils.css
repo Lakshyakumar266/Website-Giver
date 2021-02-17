@@ -3,6 +3,9 @@
 .flex {
   display: flex;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 .flex-center {
   align-items: center;
@@ -70,6 +73,25 @@
 
 .arrow {
   transition: all 200ms ease-in;
+}
+
+.top{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  position: fixed;
+  background: #ff7905;
+  padding: 10px;
+  border-radius: 2px;
+  opacity: 0;
+  transition: all 400ms ease-in-out;
+}
+.top i{
+  font-weight: 100;
+  color: #000000;
+}
+.visible{
+  opacity: 1;
 }
 
 footer::selection,

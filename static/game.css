@@ -34,6 +34,10 @@ body {
   background-color: aliceblue;
 }
 
+.top{
+  background: #bd4cb9;
+}
+
 /* Selected Are */
 ::selection {
   background: #bd4cb9;
