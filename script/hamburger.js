@@ -1,4 +1,3 @@
-
 function hamburgerOpean() {
     console.log('hamburger');
 
